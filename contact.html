@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Daily Upgrade</title>
+    <meta name="description" content="Get in touch with the Daily Upgrade team. We're here to answer your questions and hear your feedback.">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">
+                    <span class="logo-text">Daily Upgrade</span>
+                </a>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle menu">
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                    <span class="hamburger"></span>
+                </button>
+
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html" class="nav-link">Home</a></li>
+                    <li><a href="about.html" class="nav-link">About</a></li>
+                    <li><a href="contact.html" class="nav-link active">Contact</a></li>
+                    <li><a href="editorial-guidelines.html" class="nav-link">Editorial Guidelines</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="content-page">
+        <div class="content-header">
+            <div class="content-header-content">
+                <h1>Contact Us</h1>
+                <p>We'd love to hear from you. Send us a message and we'll respond as soon as possible.</p>
+            </div>
+        </div>
+
+        <div class="content-body">
+            <div id="formSuccess" class="form-success" style="display: none;">
+                <strong>Thank you for your message!</strong> We've received your inquiry and will respond within 24-48 hours.
+            </div>
+
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <label for="name" class="form-label">Name *</label>
+                    <input type="text" id="name" name="name" class="form-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email" class="form-label">Email Address *</label>
+                    <input type="email" id="email" name="email" class="form-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject" class="form-label">Subject *</label>
+                    <input type="text" id="subject" name="subject" class="form-input" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message" class="form-label">Message *</label>
+                    <textarea id="message" name="message" class="form-textarea" required></textarea>
+                </div>
+
+                <button type="submit" class="form-btn">Send Message</button>
+            </form>
+
+            <div class="content-section" style="margin-top: 3rem;">
+                <h2>Other Ways to Reach Us</h2>
+                <p><strong>General Inquiries:</strong> info@dailyupgrade.com</p>
+                <p><strong>Editorial Team:</strong> editorial@dailyupgrade.com</p>
+                <p><strong>Advertising:</strong> ads@dailyupgrade.com</p>
+                <p><strong>Press Inquiries:</strong> press@dailyupgrade.com</p>
+            </div>
+
+            <div class="content-section">
+                <h2>Frequently Asked Questions</h2>
+                
+                <h3>How can I contribute content to Daily Upgrade?</h3>
+                <p>We're always looking for qualified contributors. Please send your credentials, writing samples, and proposed topic areas to editorial@dailyupgrade.com for consideration.</p>
+
+                <h3>How do I report an error in an article?</h3>
+                <p>We take accuracy seriously. If you spot an error, please contact us using the form above with "Error Report" in the subject line, including the article URL and details about the error.</p>
+
+                <h3>Can I republish Daily Upgrade content?</h3>
+                <p>Please contact editorial@dailyupgrade.com for information about content licensing and republishing permissions.</p>
+
+                <h3>How do I advertise on Daily Upgrade?</h3>
+                <p>For advertising opportunities, media kits, and rate information, please contact ads@dailyupgrade.com.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3 class="footer-title">Daily Upgrade</h3>
+                    <p class="footer-text">Insights. Trends. Smart Living.</p>
+                    <p class="footer-description">Daily Upgrade is a modern digital publication delivering research-backed insights, consumer trends, lifestyle features, and practical knowledge.</p>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-heading">About</h4>
+                    <ul class="footer-links">
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="editorial-guidelines.html">Editorial Guidelines</a></li>
+                        <li><a href="how-we-make-money.html">How We Make Money</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-heading">Legal</h4>
+                    <ul class="footer-links">
+                        <li><a href="privacy-policy.html">Privacy Policy</a></li>
+                        <li><a href="terms-conditions.html">Terms & Conditions</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4 class="footer-heading">Categories</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Home & Living</a></li>
+                        <li><a href="#">Technology</a></li>
+                        <li><a href="#">Wellness</a></li>
+                        <li><a href="#">Innovation</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Daily Upgrade. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
